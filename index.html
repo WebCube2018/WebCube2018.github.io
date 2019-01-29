@@ -2,13 +2,147 @@
 <html lang="ru">
     <head>
         <meta charset="UTF-8">
-        <title>TEST</title>
+        <title>LoftShool HomeWork 001</title>
         <link rel="stylesheet" href="css/vendor.css">
         <link rel="stylesheet" href="css/style.min.css">
     </head>
     <body>
-        <h1>Hello world MAIN</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cumque dolor ea, impedit ipsam modi molestiae natus nihil quis rem sit soluta sunt ullam vel veritatis. Distinctio ex iusto vitae?</p>
+        <header class="haader">
+            <div class="haader__bg"></div>
+            <div class="header-container">
+                <div class="container container_flex container_flex_between">
+                    <div class="logo">
+                        <a href="/" class="logo__href">
+                            <img src="icons/logo.svg" alt="Логотип компании" class="logo__images">
+                        </a>
+                    </div>
+                    <nav class="menu">
+                        <ul class="container-menu">
+                            <li class="container-menu__item">
+                                <a href="#" class="container-menu__href">О нас</a>
+                            </li>
+                            <li class="container-menu__item">
+                                <a href="#" class="container-menu__href">Бургеры</a>
+                            </li>
+                            <li class="container-menu__item">
+                                <a href="#" class="container-menu__href">Команда</a>
+                            </li>
+                            <li class="container-menu__item">
+                                <a href="#" class="container-menu__href">Меню</a>
+                            </li>
+                            <li class="container-menu__item">
+                                <a href="#" class="container-menu__href">Отзывы</a>
+                            </li>
+                            <li class="container-menu__item">
+                                <a href="#" class="container-menu__href">как мы работаем</a>
+                            </li>
+                            <li class="container-menu__item">
+                                <a href="#" class="container-menu__href">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="haader__button">Заказть</button>
+                </div>
+                <div class="container slider">
+                    <ul class="controls">
+                        <li class="controls__item"><span class="controls__icon"></span></li>
+                        <li class="controls__item"><span class="controls__icon"></span></li>
+                        <li class="controls__item"><span class="controls__icon"></span></li>
+                        <li class="controls__item"><span class="controls__icon"></span></li>
+                        <li class="controls__item"><span class="controls__icon"></span></li>
+                        <li class="controls__item"><span class="controls__icon"></span></li>
+                        <li class="controls__item"><span class="controls__icon"></span></li>
+                        <li class="controls__item"><span class="controls__icon"></span></li>
+                        <li class="controls__item"><span class="controls__icon"></span></li>
+                    </ul>
+                    <div class="slider__item container_flex container_flex_start">
+                        <div class="slider__bg"></div>
+                        <img src="images/steam+%25282%2529.png" alt="Бургер" class="slider__images">
+                        <div class="slider__text container_flex container_flex_center container_flex_direction-column">
+                            <h1 class="slider__title slider__title_h1 title title_size_l color_yellow">Мы делаем</h1>
+                            <p class="slider__title slider__title_article color_white title_size_l">натуральные бургеры</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container scroll">
+                    <a href="#" class="scroll__hreff">
+                        <img src="icons/arrow-scroll.svg" alt="скролл вниз" class="scroll__imges">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <section class="section-best section-best_bg">
+            <div class="container container_flex container_flex_center">
+                <h1 class="title title_size_l color_black section-best__title">Мы лучшие</h1>
+            </div>
+            <ul class="container container_flex container_flex_between container-best">
+                <li class="container_flex container_flex_between container_flex_direction-column container-best__item">
+                    <img src="icons/meat.svg" alt="100% свежее мясо" class="container-best__images">
+                    <div class="container-best__title">100% свежее мясо</div>
+                    <div class="container-best__span">
+                        Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Ямб неравномерен.
+                    </div>
+                </li>
+                <li class="container_flex container_flex_between container_flex_direction-column container-best__item">
+                    <img src="icons/hand.svg" alt="Ручная  сборка" class="container-best__images">
+                    <div class="container-best__title">Ручная  сборка</div>
+                    <div class="container-best__span">
+                        Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Первое полустишие притягивает сюжетный реформаторский пафос.
+                    </div>
+                </li>
+                <li class="container_flex container_flex_between container_flex_direction-column container-best__item">
+                    <img src="icons/natural.svg" alt="Натуральные ингредиенты" class="container-best__images">
+                    <div class="container-best__title">Натуральные ингредиенты</div>
+                    <div class="container-best__span">
+                        Драма представляет собой деструктивный цикл. Анапест представляет собой анапест.
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="section-slider-darck section-slider-darck_bg">
+            <div class="section-slider-burger">
+                <div class="section-slider-controlls container">
+                    <div class="section-slider-controlls__next">
+                        <span class="section-slider-controlls__prew-images"></span>
+                        <span class="section-slider-controlls__next-images"></span>
+                    </div>
+                </div>
+                <div class="slider-burger container">
+                    <div class="slider-burger__item container_flex container_flex_between">
+                        <div class="slider-burger_list slider-burger__view">
+                            <div class="slider-burger__view-item slider-burger__view-item_bg">
+                                <div class="slider-burger__view-item_bg-orange"></div>
+                                <span class="slider-burger__icon-view"></span>
+                                <span class="slider-burger__icon-text">состав</span>
+                            </div>
+                            <div class="slider-burger__view-item">
+                                <img src="images/Бургер+с+чернилами+каракатицы.png" alt="Dark BEEF Burger" class="slider-burger__view-images">
+                            </div>
+                            <div class="slider-burger__view-item slider-burger__view-item_call">
+                                <span class="slider-burger__icon-calory">1200</span>
+                                <span class="slider-burger__icon-calory-text">Ккал</span>
+                            </div>
+                        </div>
+                        <div class="slider-burger_list slider-burger__info">
+                            <h1 class="title title_size_l color_white slider-burger_title slider-burger__info-item">
+                                Dark BEEF Burger
+                            </h1>
+                            <p class="slider-burger__info-item slider-burger__info-parag">
+                                Ваш старый добрый знакомый, с рубленым бифштексом из 100% говядины, тремя кусочками нежнейшего сыра эмменталь, двумя помидорами, луком, салатом и соусом гриль теперь с добавлением экзотического соуса чураско.
+                            </p>
+                            <div class="slider-burger__info-item slider-burger__info-sum">
+                                <span class="slider-burger__sum">500 <p class="slider-burger__sum_small">рублей</p></span>
+                                <button class="haader__button haader__button_sum">Заказть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
         <script src="scripts/vendor.js"></script>
         <script src="scripts/main.js"></script>
     </body>
